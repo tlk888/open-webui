@@ -498,6 +498,7 @@ frontend_splash = FRONTEND_BUILD_DIR / "static" / "splash.png"
 
 CUSTOM_NAME = os.environ.get("CUSTOM_NAME", "")
 WEBUI_NAME = CUSTOM_NAME
+
 #if CUSTOM_NAME:
 #    try:
 #        r = requests.get(f"https://api.openwebui.com/api/v1/custom/{CUSTOM_NAME}")
